@@ -1,4 +1,4 @@
-import = [
+general.import = [
   "~/.config/alacritty/catppuccin-macchiato.toml"
 ]
 
@@ -20,6 +20,6 @@ italic = { family = "JetBrains Mono Nerd Font", style = "Italic" }
 bold_italic = { family = "JetBrains Mono Nerd Font", style = "Bold Italic" }
 size = 8
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 args = ["-c", "neofetch; exec zsh"]
